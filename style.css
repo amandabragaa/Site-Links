@@ -1,0 +1,68 @@
+
+body {
+    background-image: linear-gradient(135deg, #1d2b64, #f8cdda);
+    height: 100vh;
+}
+
+#fotoAmanda{
+    background-image: url("assets/photos/amanda.jpg");
+    height:255px;
+    width: 255px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#titulo {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 33px 0px 27px 0px;
+    text-align: center;
+}
+
+.buttonSocial {
+    display: block;
+    border-radius: 50px;
+    width: 255px;
+    height: 40px;
+    background-color: #00000030;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 27px;
+    position: relative;
+    cursor: pointer;
+
+    img {
+        height: 24px;
+        position: absolute;
+        left: 42px;
+        top: 9px;
+    }
+
+    p {
+        position: absolute;
+        left: 80px;
+        top: 12px;
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+    }
+}    
+
+.instaButton {
+    background-color: #00000095;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
